@@ -18,3 +18,9 @@ NESSUS_SERVER_ADDRESS IP address of Nessus server (remember to add portnumber if
 Files will be created with names:
 report_id.csv a CSV file from scan with report_id
 report_id.xlsx a excel file from scan with report_id
+
+dependencies:
+ time
+ pandas
+ openpyxl
+ requests
